@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react'
 import { Contract, providers } from 'ethers'
 import NFT from './abi/horoscopeNFT.json'
 
-const NFT_CONTRACT_ADDRESS = '0xd9DFb8355D1e63fd35196b251Bc5F0c5a849Be38'
+const NFT_CONTRACT_ADDRESS = '0x5496AA0Eec693EFC8B268013121038695Bfb98C7'
 
 function App() {
   const [isWalletInstalled, setIsWalletInstalled] = useState(false)
@@ -122,9 +122,9 @@ function App() {
       }
     } else if (month == 11) {
       if (day >= 22) {
-        setZodiacSign('Capricorn')
-      } else {
         setZodiacSign('Sagittarius')
+      } else {
+        setZodiacSign('Capricorn')
       }
     }
   }

@@ -1,6 +1,12 @@
 # Basic Sample Hardhat Project
 
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+In this project, I learned how to:
+
+1. Writing an ERC721 contract & Minting an NFT
+2. Using Devnet, Testnet
+3. Connecting MetaMask with your website
+4. Writing a front-end that interacts with deployed contract.
 
 Try running some of the following tasks:
 
